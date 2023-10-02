@@ -1,0 +1,28 @@
+@font-face {
+    font-family: social-gothic;
+    src: url('./../Fonts/Social\ Gothic\ Regular.otf');
+}
+
+@font-face {
+    font-family: social-gothic-bold;
+    src: url('./../Fonts/Social\ Gothic\ Bold.otf');
+}
+
+h1{
+    font-family: social-gothic-bold;
+}
+
+.logo{
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    color: #ff5570;
+    text-align: right;
+
+    h1{
+        margin: 0px;
+    }
+}
+
