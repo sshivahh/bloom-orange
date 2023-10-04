@@ -7,10 +7,16 @@
     box-shadow: -10px 10px 0px 0px #c93e55;
     transition: 150ms;
     transition-timing-function: ease-out;
+    padding: 20px 40px;
 }
 
 .card:hover{
     scale: 1.05;
+}
+
+.text{
+    color: white;
+
 }
 
 // .card::before{
