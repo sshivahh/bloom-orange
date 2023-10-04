@@ -1,5 +1,5 @@
 import styles from './../Styles/Navbar.module.scss'
-
+import Logo from './Logo';
 function Navbar(){
     return (
         <>
@@ -8,6 +8,7 @@ function Navbar(){
                 <a href="">Accounting</a>
                 <a href="">Photos</a>
                 <a href="">About</a>
+                <Logo />
             </div>
         </>
     )

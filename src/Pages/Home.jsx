@@ -10,7 +10,6 @@ export default function Home(){
         <>
             <Navbar />
             <div className={styles.container}>
-                <Logo />
                 <div className={styles.cardContainer}>
                     {CardText.map((text) => (
                         <Card text={text} />

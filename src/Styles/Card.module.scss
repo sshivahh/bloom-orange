@@ -1,13 +1,13 @@
 .card{
     background-color: #ff5570;
-    height: 300px;
+    height: max-content;
     max-width: 600px;
     min-width: 200px;
     margin: 50px auto;
     box-shadow: -10px 10px 0px 0px #c93e55;
     transition: 150ms;
     transition-timing-function: ease-out;
-    padding: 20px 40px;
+    padding: 40px 0;
 }
 
 .card:hover{
@@ -16,7 +16,7 @@
 
 .text{
     color: white;
-
+    margin: 0px 40px
 }
 
 // .card::before{
@@ -28,7 +28,9 @@
 @media screen and (max-width: 500px){
     .card{
         width: 75vw;
-        height: 150px;
         margin: 50px auto;
+        h1{
+            font-size: 1rem;
+        }
     }
 }
